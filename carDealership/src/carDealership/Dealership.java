@@ -11,12 +11,15 @@ public class Dealership {
 		cust1.setCashOnHand(12000.00);
 		
 		Vehicle vehicle = new Vehicle();
+		vehicle.setMake("Honda");
+		vehicle.setModel("Accord");
+		vehicle.setPrice(10000.00);
 		
 		Employee emp = new Employee();
 		
 		cust1.purchaseCar(vehicle,  emp, false);
 		
-		cust1.toString();
+
 
 	}
 
