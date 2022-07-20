@@ -1,7 +1,7 @@
 package carDealership;
 
-public class Dealership {
-
+public class CarDealership {
+	
 	public static void main(String[] args) {
 		
 		Customer cust1 = new Customer();
@@ -18,6 +18,8 @@ public class Dealership {
 		Employee emp = new Employee();
 		
 		cust1.purchaseCar(vehicle,  emp, false);
+		
+		
 		
 
 
